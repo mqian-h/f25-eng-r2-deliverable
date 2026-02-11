@@ -10,22 +10,13 @@ on the client-side to correctly match component state and props should the order
 React server components don't track state between rerenders, so leaving the uniquely identified components (e.g. SpeciesCard)
 can cause errors with matching props and state in child components if the list order changes.
 */
-import { Button } from "@/components/ui/button";
-import {
-  Dialog,
-  DialogClose,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
+
 import type { Database } from "@/lib/schema";
 import Image from "next/image";
+import SpeciesInfoDialog from "./species-info-dialog";
 type Species = Database["public"]["Tables"]["species"]["Row"];
 
-export default function SpeciesCard({ species }: { species: Species }) {
+export default function SpeciesCard({ species, userId }: { species: Species; userId?: string }) {
   return (
     <div className="m-4 w-72 min-w-72 flex-none rounded border-2 p-3 shadow">
       {species.image && (
@@ -37,45 +28,7 @@ export default function SpeciesCard({ species }: { species: Species }) {
       <h4 className="text-lg font-light italic">{species.common_name}</h4>
       <p>{species.description ? species.description.slice(0, 150).trim() + "..." : ""}</p>
       {/* Replace the button with the detailed view dialog. */}
-      <ViewSpeciesInfo key={species.id} species={species} />
+      <SpeciesInfoDialog key={species.id} species={species} userId={userId} />
     </div>
-  );
-}
-
-function ViewSpeciesInfo({ species }: { species: Species }) {
-  return (
-    <Dialog>
-      <DialogTrigger asChild>
-        <Button className="mt-3 w-full">Learn More</Button>
-      </DialogTrigger>
-      <DialogContent>
-        <DialogHeader>
-          <DialogTitle>{species.scientific_name}</DialogTitle>
-          <DialogDescription>{species.common_name}</DialogDescription>
-        </DialogHeader>
-
-        {species.image && (
-          <div className="relative my-2 h-56 w-full">
-            <Image src={species.image} alt={species.scientific_name} fill style={{ objectFit: "cover" }} />
-          </div>
-        )}
-
-        <div className="mt-2 space-y-2">
-          <p>{species.description ?? "No description available."}</p>
-          <p>
-            <strong>Kingdom:</strong> {species.kingdom}
-          </p>
-          <p>
-            <strong>Total population:</strong> {species.total_population ?? "Unknown"}
-          </p>
-        </div>
-
-        <DialogFooter>
-          <DialogClose asChild>
-            <Button>Close</Button>
-          </DialogClose>
-        </DialogFooter>
-      </DialogContent>
-    </Dialog>
   );
 }

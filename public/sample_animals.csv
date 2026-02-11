@@ -1,0 +1,131 @@
+Animal,Diet,Average Speed (km/h)
+African Elephant,Herbivore,25.0
+African Lion,Carnivore,58.0
+African Wild Dog,Carnivore,56.0
+Alpine Ibex,Herbivore,60.0
+American Bison,Herbivore,48.0
+Arabian Horse,Herbivore,65.0
+Arabian Oryx,Herbivore,55.0
+Arctic Fox,Omnivore,60.0
+Asian Elephant,Herbivore,40.0
+Atlantic Spotted Dolphin,Carnivore,52.0
+Australian Fur Seal,Carnivore,32.0
+Axolotl,Carnivore,0.8
+Baird's Tapir,Herbivore,48.0
+Bald Eagle,Carnivore,120.0
+Banded Palm Civet,Omnivore,16.0
+Bearded Dragon,Omnivore,52.0
+Bengal Fox,Omnivore,40.0
+Bengal Tiger,Carnivore,65.0
+Black Rhinoceros,Herbivore,56.0
+Blue Jay,Omnivore,32.0
+Bonobo,Omnivore,50.0
+Bornean Orangutan,Omnivore,52.0
+Bottlenose Dolphin,Carnivore,37.0
+Boxer Dog,Omnivore,64.0
+Brown Bear,Omnivore,48.0
+Burmese Python,Carnivore,2.0
+Capybara,Herbivore,32.5
+Cheetah,Carnivore,112.0
+Chimpanzee,Omnivore,40.0
+Clownfish,Omnivore,8.0
+Coelacanth,Carnivore,1.6
+Common Dolphin,Carnivore,60.0
+Coquerel's Sifaka,Herbivore,37.5
+Dalmatian Dog,Omnivore,42.5
+Dhole,Carnivore,56.0
+Dingo,Carnivore,56.0
+Dugong,Herbivore,12.5
+Eastern Gorilla,Herbivore,40.0
+Emperor Penguin,Carnivore,2.25
+Emperor Tamarin,Omnivore,32.0
+European Hedgehog,Omnivore,5.0
+Fennec Fox,Omnivore,32.0
+Fire Salamander,Carnivore,0.8
+Flying Fox,Herbivore,45.0
+Fossa,Carnivore,46.5
+GalÃ¡pagos Penguin,Carnivore,29.5
+Galápagos Tortoise,Herbivore,0.4
+Gaur,Herbivore,35.0
+Gerenuk,Herbivore,55.0
+Gharial,Carnivore,32.0
+Giant Pacific Octopus,Carnivore,24.0
+Giant Panda,Herbivore,32.0
+Gila Monster,Carnivore,1.5
+Goblin Shark,Carnivore,2.3
+Golden Lion Tamarin,Omnivore,10.5
+Great White Shark,Carnivore,56.0
+Green Sea Turtle,Herbivore,18.7
+Grevy's Zebra,Herbivore,64.0
+Harp Seal,Carnivore,20.5
+Harpy Eagle,Carnivore,50.0
+Hippopotamus,Herbivore,25.0
+Humpback Whale,Omnivore,25.5
+Iberian Lynx,Carnivore,75.0
+Indri,Herbivore,25.5
+Japanese Macaque,Omnivore,30.0
+Kakapo,Herbivore,2.5
+Kangaroo Rat,Herbivore,16.0
+King Cobra,Carnivore,20.0
+Kiwi,Omnivore,8.0
+Komodo Dragon,Carnivore,20.0
+Lyrebird,Omnivore,0.03
+Manatee,Herbivore,8.0
+Maned Wolf,Omnivore,56.0
+Mantis Shrimp,Carnivore,40.0
+Markhor,Herbivore,52.0
+Mountain Gorilla,Herbivore,40.0
+Narwhal,Carnivore,45.0
+Okapi,Herbivore,57.0
+Orangutan,Omnivore,9.0
+Patagonian Mara,Herbivore,30.0
+Polar Bear,Carnivore,40.0
+Praying Mantis,Carnivore,0.6
+Proboscis Monkey,Herbivore,28.0
+Pronghorn,Herbivore,88.5
+Pufferfish,Carnivore,8.0
+Quokka,Herbivore,24.0
+Red Fox,Omnivore,48.0
+Red Kangaroo,Herbivore,56.0
+Red Panda,Herbivore,0.3
+Rottweiler,Carnivore,35.0
+Saola,Herbivore,26.0
+Secretary Bird,Carnivore,24.0
+Serval,Carnivore,44.0
+Shoebill,Carnivore,15.0
+Shortfin Mako Shark,Carnivore,45.0
+Siberian Husky,Carnivore,57.5
+Sloth,Herbivore,0.14
+Snow Leopard,Carnivore,50.0
+Snowy Owl,Carnivore,80.0
+Spectacled Bear,Omnivore,45.0
+Sperm Whale,Carnivore,60.0
+Spider Monkey,Omnivore,45.0
+Squirrel Monkey,Omnivore,30.0
+Sumatran Orangutan,Omnivore,35.0
+Sumatran Rhino,Herbivore,40.0
+Sumatran Rhinoceros,Herbivore,52.0
+Sun Bear,Omnivore,44.0
+Tapir,Herbivore,48.0
+Tasmanian Tiger,Carnivore,56.0
+Three-Toed Sloth,Herbivore,20.0
+Tibetan Mastiff,Omnivore,45.0
+Tiger,Carnivore,28.0
+Titanoboa,Carnivore,27.0
+Toco Toucan,Omnivore,35.5
+Tree Kangaroo,Herbivore,30.0
+Tufted Puffin,Carnivore,17.0
+Uakari,Omnivore,20.0
+Vampire Bat,Carnivore,32.0
+Western Gorilla,Herbivore,40.0
+Western Lowland Gorilla,Herbivore,40.0
+White Rhinoceros,Herbivore,45.0
+White Tiger,Carnivore,22.0
+Wild Boar,Omnivore,20.0
+Wildebeest,Herbivore,47.0
+Wolf,Carnivore,45.0
+Wombat,Herbivore,20.0
+Yak,Herbivore,24.0
+Yellow-Eyed Penguin,Carnivore,25.0
+Zebra,Herbivore,25.0
+Zebra Shark,Carnivore,20.0
